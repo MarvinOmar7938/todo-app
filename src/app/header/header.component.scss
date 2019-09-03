@@ -1,0 +1,18 @@
+:host{
+  width: 80%;
+}
+.header-container{
+  display: flex;
+  justify-content: center;
+
+  padding: 20px 0;
+
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+  border-radius:15px;
+
+  font-size: 40px;
+  color: #fff;
+
+  background-color: #1BA1E2;
+}
