@@ -1,0 +1,16 @@
+:host{
+  width: 80%;
+}
+.item-list-container{
+  display: flex;
+  flex-direction: column;
+
+  height: 350px;
+  overflow-y: auto;
+
+  border: 1px solid #cccccc;
+
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius: 10px;
+}
