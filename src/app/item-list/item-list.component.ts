@@ -1,3 +1,4 @@
+import { InputService } from './../input.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemListComponent implements OnInit {
 
-  constructor() { }
+  public listItem: string[];
+  constructor(private inputService: InputService) {
+    this.listItem = [];
+  }
 
   ngOnInit() {
+    this.listItem = this.inputService.todoList;
   }
 
 }

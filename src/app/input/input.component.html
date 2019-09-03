@@ -1,4 +1,4 @@
 <article class="input-container">
-  <input class="input" type="text" placeholder="Add your TODO here">
-  <button class="input-btn">Add</button>
+  <input class="input" type="text" placeholder="Add your TODO here" [(ngModel)]="value">
+  <button class="input-btn" (click)="createItem()">Add</button>
 </article>
